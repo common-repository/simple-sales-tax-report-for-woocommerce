@@ -1,0 +1,30 @@
+.r34sstr .scrollable {
+	overflow-x: auto;
+	width: 100%;
+}
+
+.r34sstr table.grid {
+	border-collapse: collapse;
+	margin: 1.5em 0;
+	width: 100%;
+}
+
+.r34sstr table.grid th {
+	background: rgba(255,255,0,0.1);
+	font-weight: 500;
+	text-align: left;
+}
+
+.r34sstr table.grid thead th {
+	background: rgba(0,0,0,0.075);
+	font-weight: 700;
+}
+
+.r34sstr table.grid tr > * {
+	border: 1px solid #ecf0f1;
+	padding: 0.75em 1em 0.5em 1em;
+}
+
+.r34sstr table.grid tr:nth-of-type(2n) > td {
+	background: rgba(0,0,0,0.025);
+}
